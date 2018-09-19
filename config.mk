@@ -13,7 +13,7 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-vendor/xiaomi/Gcam/system/vendor/lib/libmmcamera2_mct.so:/vendor/lib/libmmcamera2_mct.so \
+vendor/xiaomi/Gcam/system/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
 
 PRODUCT_PACKAGES += \
 Gcam
