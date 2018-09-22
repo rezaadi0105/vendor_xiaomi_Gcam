@@ -15,6 +15,27 @@
 PRODUCT_COPY_FILES += \
 vendor/xiaomi/Gcam/system/vendor/lib/libmmcamera2_mct.so:system/lib/libmmcamera2_mct.so \
 vendor/xiaomi/Gcam/system/vendor/lib/libmmcamera2_mct.so:vendor/lib/libmmcamera2_mct.so \
+vendor/xiaomi/Gcam/system/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so \
+vendor/xiaomi/Gcam/system/lib/android.hardware.camera.device@1.0.so:system/lib/android.hardware.camera.device@1.0.so \
+vendor/xiaomi/Gcam/system/lib/android.hardware.camera.device@3.2.so:system/lib/android.hardware.camera.device@3.2.so \
+vendor/xiaomi/Gcam/system/lib/android.hardware.camera.device@3.3.so:system/lib/android.hardware.camera.device@3.3.so \
+vendor/xiaomi/Gcam/system/lib/android.hardware.camera.device@3.4.so:system/lib/android.hardware.camera.device@3.4.so \
+vendor/xiaomi/Gcam/system/lib/android.hardware.camera.provider@2.4.so:system/lib/android.hardware.camera.provider@2.4.so \
+vendor/xiaomi/Gcam/system/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
+vendor/xiaomi/Gcam/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
+vendor/xiaomi/Gcam/system/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+vendor/xiaomi/Gcam/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
+vendor/xiaomi/Gcam/system/lib64/android.hardware.camera.common@1.0.so:system/lib64/android.hardware.camera.common@1.0.so \
+vendor/xiaomi/Gcam/system/lib64/android.hardware.camera.device@1.0.so:system/lib64/android.hardware.camera.device@1.0.so \
+vendor/xiaomi/Gcam/system/lib64/android.hardware.camera.device@3.2.so:system/lib64/android.hardware.camera.device@3.2.so \
+vendor/xiaomi/Gcam/system/lib64/android.hardware.camera.device@3.3.so:system/lib64/android.hardware.camera.device@3.3.so \
+vendor/xiaomi/Gcam/system/lib64/android.hardware.camera.device@3.4.so:system/lib64/android.hardware.camera.device@3.4.so \
+vendor/xiaomi/Gcam/system/lib64/android.hardware.camera.provider@2.4.so:system/lib64/android.hardware.camera.provider@2.4.so \
+vendor/xiaomi/Gcam/system/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
+vendor/xiaomi/Gcam/system/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
+vendor/xiaomi/Gcam/system/lib64/libcamera_metadata.so:system/lib64/libcamera_metadata.so \
+vendor/xiaomi/Gcam/system/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
+
 
 PRODUCT_PACKAGES += \
 Gcam
