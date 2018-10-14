@@ -39,3 +39,7 @@ vendor/xiaomi/Gcam/system/lib64/libcameraservice.so:system/lib64/libcameraservic
 
 PRODUCT_PACKAGES += \
 Gcam
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/Gcam/prebuilt/etc/permissions/privapp-permissions-gcam.xml:system/etc/permissions/privapp-permissions-gcam.xml
