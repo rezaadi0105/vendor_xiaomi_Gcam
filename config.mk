@@ -34,8 +34,14 @@ vendor/xiaomi/Gcam/system/lib64/android.hardware.camera.provider@2.4.so:system/l
 vendor/xiaomi/Gcam/system/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
 vendor/xiaomi/Gcam/system/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
 vendor/xiaomi/Gcam/system/lib64/libcamera_metadata.so:system/lib64/libcamera_metadata.so \
-vendor/xiaomi/Gcam/system/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
+vendor/xiaomi/Gcam/system/lib64/libcameraservice.so:system/lib64/libcameraservice.so 
 
+# Mdia files
+PRODUCT_COPY_FILES += \
+vendor/xiaomi/Gcam/system/product/media/audio/ui/camera_click.ogg:system/product/media/audio/ui \
+vendor/xiaomi/Gcam/system/product/media/audio/ui/camera_focus.ogg:system/product/media/audio/ui \
+vendor/xiaomi/Gcam/system/product/media/audio/ui/VideoStop.ogg:system/product/media/audio/ui \
+vendor/xiaomi/Gcam/system/product/media/audio/ui/VideoRecord.ogg:system/product/media/audio/ui \
 
 PRODUCT_PACKAGES += \
 Gcam
