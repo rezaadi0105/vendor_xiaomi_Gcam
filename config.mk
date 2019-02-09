@@ -44,9 +44,6 @@ vendor/xiaomi/Gcam/system/product/media/audio/ui/camera_focus.ogg:system/product
 vendor/xiaomi/Gcam/system/product/media/audio/ui/VideoStop.ogg:system/product/media/audio/ui \
 vendor/xiaomi/Gcam/system/product/media/audio/ui/VideoRecord.ogg:system/product/media/audio/ui \
 
-PRODUCT_PACKAGES += \
-Gcam
-
 # Permissions
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/Gcam/prebuilt/etc/permissions/privapp-permissions-gcam.xml:system/etc/permissions/privapp-permissions-gcam.xml
